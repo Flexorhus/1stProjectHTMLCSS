@@ -12,15 +12,11 @@ header {
     align-items: center;
     
 }
-.firstMainContainer {
-    padding-top: 30px;
-    background-color: rgb(250, 250, 246);
-}
 
 .imgHeader {
-    
+
     display: flex;
- 
+
 }
 
 .nav-header {
@@ -38,6 +34,11 @@ header {
     border-radius: 20%;
     padding: 10px;
     background-color: rgba(0, 255, 255, 0.079);
+}
+
+.firstMainContainer {
+    padding-top: 30px;
+    background-color: rgb(250, 250, 246);
 }
 
 h1{
@@ -165,12 +166,33 @@ h2{
         flex-direction: column;
         align-items: center;
     }
+
     .firstP {
-        margin-left: 80px;
+        margin-left: 50px;
+        text-align: center;
+        justify-content: center;
         width: auto;
+        overflow: auto;
+    }
+    
+    .secondMain {
+        text-align: center;
+        flex-direction: column;
     }
 
+    .imgCodeHtml {
+        width: 70%;
+        height: 40%;
+        margin-left: 40px;
+        text-align: center;
+    }
     .secondP {
-        overflow: scroll;
+        margin-left: 50px;
+        font-size: 20px;
+        width: auto;
+        text-align: start;
+        justify-content: center;
+        
+        overflow: auto;
     }
 }

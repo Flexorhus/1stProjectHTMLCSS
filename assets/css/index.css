@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0%;
     font-family: 'Times New Roman', Times,  sans-serif;
-  
 }
 
 header {
@@ -12,15 +11,11 @@ header {
     align-items: center;
     
 }
-.firstMainContainer {
-    padding-top: 30px;
-    background-color: rgb(250, 250, 246);
-}
 
 .imgHeader {
     
     display: flex;
- 
+
 }
 
 .nav-header {
@@ -40,20 +35,27 @@ header {
     background-color: rgba(0, 255, 255, 0.079);
 }
 
+.firstMainContainer {
+    padding-top: 30px;
+    background-color: rgb(250, 250, 246);
+}
+
 h1{
     text-align: center;
     font-size: 50px;
     font-style: oblique;
 
- }
+}
+
 .firstContainer {
     display: flex;
 }
 .firstimg {
     margin-left: 60px;
     margin-bottom: 30px;
-    width: 70%;
+    width: 80%;
 }
+
 .firstP {
     font-size: 20px;
     width: 40%;
@@ -76,7 +78,7 @@ h1{
     margin: 10px;
     padding: 20px;
     border: 1px solid black;
-    height: 80%;
+    height: 60%;
 }
 
 .firstDivMid {
@@ -88,25 +90,18 @@ h1{
     height: 80%;
 }
 
-.thirdP {
-    font-size: 20px;
-    width: 40%;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid black;
-    height: 80%;
-}
+
 .secondImgMid {
-    width: 700px;
-    height: 400px;
+    width: 600px;
+    height: 300px;
 }
 
 
 
 h2 {
-    height:40px;
     text-align: center;
     font-size: 60px;
+    font-style: oblique;
 }
 
 .twoContainer {
@@ -122,10 +117,7 @@ h2 {
     text-decoration: none;
     color: white;
 }
-.artContainer {
-    display: flex;
-    align-items: center;
-}
+
 
 .codeMidContainer {
     display: flex;
@@ -138,16 +130,20 @@ h2 {
 
 h3 {
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
+    font-style: oblique;
 }
-
-.lastImgContainer {
+h3 {
+    margin: 0;
+    padding: 10px;
     text-align: center;
+    font-size: 200%;
+    background-color: #000;
+    color: white;  
 }
 
 
 .thirdP {
-    
     font-size: 20px;
     width: 40%;
     margin: 20px;
@@ -155,14 +151,16 @@ h3 {
     border: 1px solid black;
     height: 220px;
 }
-.treeContainer {
-    margin: 0;
-    padding: 10px;
+
+.lastMain {
+    display: flex;
+}
+
+.lastImgContainer {
     text-align: center;
-    font-size: 200%;
-    background-color: #000;
-    color: white;
-    justify-content: space-between;
+    width: 600px;
+    margin: 20px;
+    height: 300px;
 }
 
 
@@ -208,7 +206,19 @@ h3 {
     .firstContainer {
         display: flex;
         flex-direction: column;
-        
+    }
+    .firstimg {      
+            width: 70%;
+            height: 40%;
+            text-align: center;
+    } 
+    .firstP {
+        margin-left: 60px;
+        padding-right: 10px;
+        justify-content: center;
+        width: auto;
+        text-align: center;
+        overflow: auto;
         
     }
 
@@ -217,45 +227,57 @@ h3 {
         flex-direction: column;
         
     }
-
+    .firstImgMid {
+        width: 70%;
+        height: 40%;
+        margin-left: 40px;
+        text-align: center;
+    }
     .artCodeContainer {
         display: flex;
         flex-direction: column;
     }
-    .firstimg {      
+    
+    .secondP {
+        margin-left: 20px;
+        padding-right: 20px;
+        justify-content: center;
+        width: auto;
+        text-align: center;
+        overflow: auto;
+    }
+    
+    .firstDivMid {
+        margin-left: 20px;
+        padding-right: 20px;
+        justify-content: center;
+        width: auto;
+        overflow: auto;
+    }
+
+    .secondImgMid {
+
         width: 70%;
         height: 40%;
+        margin-left: 40px;
         text-align: center;
-        
-    }
-    .firstImgMid {
-        width: auto;
-        justify-content: center;
-    }
-    .firstP {
-        display: flex;
-        
-        width: auto;
-        text-align: center;
-        
-       
-    }
-    .secondP {
-        display: flex;
-        align-items: center;
-        width: 70%;
-        height: 220px;  
-    }
-    .firstDivMid {
-        align-items: center;
-        width: 88%;
     }
     .thirdP {
-        
-        align-items: center;
-        width: 70%;
-        height: 220px;  
+        margin-left: 20px;
+        padding-right: 20px;
+        justify-content: center;
+        width: auto;
+        overflow: auto;
+    }
 
+    .lastMain {
+        flex-direction: column;
+    }
+    .lastImgContainer {
+        width: 70%;
+        height: 40%;
+        margin-left: 40px;
+        text-align: center;
     }
 }
 

@@ -22,52 +22,69 @@
             </ul>
         </nav>
     </header>
+
+
+
     <main>
         <form action="">
             <section>
-                <h1>Coordonnées</h1>
-                <div>
-                    <label for="name"><b>Nom</b></label><br>
-                    <input id="name" type="text">
+                <h1>CONTACT</h1>
+                <div class="userName">
+                    <div>
+                        <label for="name"><b>Nom</b></label><br>
+                        <input id="name" type="text">
+                    </div>
+
+                    <div>
+                        <label for="firstname"><b>Prenom</b></label><br>
+                        <input id="firstname" type="text">
+                    </div>
+                </div>
+                <div class="contact">
+                    <div>
+                        <label for="name"><b>Numéro de téléphone</b></label><br>
+                        <input id="name" type="text">
+                    </div>
+                    <div>
+                        <label for="name"><b>Email</b></label><br>
+                        <input id="name" type="text">
+                    </div>
                 </div>
 
-                <div>
-                    <label for="firstname"><b>Prenom</b></label><br>
-                    <input id="firstname" type="text">
+
+                <div class="Main">
+                    <div>
+                        <label for=""><b>Je désire recevoir la version PDF du cours HTML / CSS</b></label>
+                        <input type="checkbox">
+                    </div>
+
+
+                    <div class="selectCountry">
+                        <label for="country"><b>Selectionnez votre Pays</b></label>
+                        <select id="country">
+                            <option value="French">France</option>
+                            <option value="English">Angleterre</option>
+                            <option value="Spain">Espagne</option>
+                            <option value="Portugal">Portugql</option>
+                            <option value="UnitedStates">USA</option>
+                            <option value="Finland">Finland</option>
+                            <option value="Switzerland">Suisse</option>
+                        </select>
+                    </div>
+
+                    <div>
+                    <span><b>Selectionner votre genre</b></span>
+
+                        <input type="radio" id="choice" name="text" />
+                        <label for="masculin">Masculin</label>
+
+                        <input type="radio" id="choice" name="text" />
+                        <label for="feminin">Feminin</label>
+
+                        <input type="radio" id="choice" name="text" />
+                        <label for="feminin">Non Genré</label>
+                    </div>
                 </div>
-
-                <div>
-                    <label for=""><b>Je désire recevoir la version pdf du cours HTML / CSS</b></label>
-                    <input type="checkbox">
-                </div>
-
-
-                <div>
-                    <label for="country"><b>Selectionnez votre Pays</b></label>
-                    <select id="country">
-                        <option value="French">France</option>
-                        <option value="English">Angleterre</option>
-                        <option value="Spain">Espagne</option>
-                        <option value="Portugal">Portugql</option>
-                        <option value="UnitedStates">USA</option>
-                        <option value="Finland">Finland</option>
-                        <option value="Switzerland">Suisse</option>
-                    </select>
-                </div>
-
-                <div>
-                   <span><b>Selectionner votre genre</b></span>
-                  
-                    <input type="radio" id="choice" name="text" />
-                    <label for="masculin">Masculin</label>
-
-                    <input type="radio" id="choice" name="text" />
-                    <label for="feminin">Feminin</label>
-
-                    <input type="radio" id="choice" name="text" />
-                    <label for="feminin">Non Genré</label>
-                </div>
-
 
             </section>
 
@@ -75,17 +92,17 @@
             <section>
 
                 <h2>Domaine d'activité </h2>
-                <p>Vous pouvez en choisir plus qu'un ...</p> <br>
+                <p>Selectionnez votre secteur d'activité actuel. </p> <br>
 
                 <div>
                     <input type="checkbox" id="scales" name="scales" checked />
-                    <label for="pedagogie">Pedagogie</label>
+                    <label for="pedagogie">Education</label>
 
                     <input type="checkbox" id="scales" name="scales" checked />
-                    <label for="psychologie">Psychologie</label>
+                    <label for="psychologie">Transport</label>
 
                     <input type="checkbox" id="scales" name="scales" checked />
-                    <label for="Informatique">Informatique</label>
+                    <label for="Informatique">Service</label>
 
                     <input type="checkbox" id="scales" name="scales" checked />
                     <label for="Autres">Autres</label>
@@ -94,8 +111,8 @@
 
                 <div>
                     <label for="message"><b>Présentez vous en quelque ligne pour en savoir davantage sur vous.</b></label><br>
-                    <p>Exprimer vous sans limite !!</p>
-                    <textarea id="message " width="300px"></textarea><br>
+                    <p>Exprimez vous sans limite !!</p>
+                    <textarea id="message" width="300px"></textarea><br>
 
 
                     <button class="donnees" type="reset">Effacer les données</button>
